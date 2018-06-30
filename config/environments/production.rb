@@ -1,4 +1,7 @@
 Rails.application.configure do
+
+  config.assets.css_compressor = :yui
+  config.assets.js_compressor = :uglifier
   # Verifies that versions and hashed value of the package contents in the project's package.json
   config.webpacker.check_yarn_integrity = false
   # Settings specified here will take precedence over those in config/application.rb.
