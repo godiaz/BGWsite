@@ -1,14 +1,16 @@
 function initUpdateNavbarOnScroll() {
-  const navbar = document.querySelector('.navbar-wagon');
+  const navbar = document.querySelector(".navbar-wagon");
   if (navbar) { 
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       if (window.scrollY >= window.innerHeight) {
-        navbar.classList.add('navbar-wagon-white');
+        navbar.classList.add("navbar-wagon-white");
       } else {
-        navbar.classList.remove('navbar-wagon-white');
+        navbar.classList.remove("navbar-wagon-white");
       }
     });
   }
 }
+
+console.log("hello");
 
 export { initUpdateNavbarOnScroll };
