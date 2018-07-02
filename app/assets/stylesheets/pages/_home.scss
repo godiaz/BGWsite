@@ -1,1 +1,242 @@
-// Specific CSS for your home-page
+.home-quienes-somos p:last-child{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 200px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+}
+
+.home-quienes-somos p:first-child{
+ 	margin-left: 200px;
+}
+
+.home-servicios p:last-child{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 600px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+}
+
+.home-servicios p:first-child{
+ 	margin-left: 600px;
+}
+
+.home-vendemos p:last-child{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 400px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+}
+
+.home-vendemos p:first-child{
+ 	margin-left: 400px;
+}
+
+
+.home-background-2{
+	width: 80%;
+}
+
+.home-second-banner-title{
+	margin: 0px 10px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	letter-spacing: 1px;
+	width: 250px;
+	margin-left: 20px;
+}
+
+.home-third-banner-title p{
+	font-size: 16px;
+	color: black;
+	font-size: 20px;
+	letter-spacing: 1px;
+	width: 200px;
+}
+
+.home-third-banner-title{
+	margin: 0px 10px 10px 50px;
+}
+
+.home-products{
+	list-style-type: none;
+	position: relative;
+	margin: 10px 10px;
+	padding: 10px 50px;
+}
+
+.home-industries{
+	list-style-type: none;
+	position: relative;
+	margin: 10px 10px;
+	padding: 20px;
+}
+
+.home-product-image{
+	position: relative;
+	border-radius: 50%;
+	height: 30vh;
+	width: 30vh;
+	background-size: fill;
+	display: block;
+}
+
+.home-industries-image{
+	position: relative;
+	border-radius: 50%;
+	height: 30vh;
+	width: 30vh;
+	background-size: fill;
+	display: block;
+}
+
+.home-products:hover .image-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.home-industries:hover .image-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.image-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 51%;
+  padding-left: 200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-industry-text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  align-text: center;
+  padding-left: 140px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-industry-text:hover{
+	color: white;
+}
+
+
+.image-text-two {
+	font-size: 12px !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	padding-left: 200px;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.image-text-two:hover{
+	color: white;
+}
+
+.image-text a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 5px;
+}
+
+.home-products:hover .home-product-overlay {
+  opacity: 1;
+}
+
+.home-industries:hover .home-industries-overlay{
+	opacity: 1;
+}
+
+.home-product-overlay {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 50px;
+  right: 0px;
+  height: 30vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 125px 125px 125px 125px;
+}
+
+.home-industries-overlay {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 20px;
+  right: 0px;
+  height: 30vh;
+  width: 30vh;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 125px 125px 125px 125px;
+}
+
+.home-products-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.home-banner-transition{
+	height: 600px;
+	background: linear-gradient(white 5%, rgba(255,255, 255, 0.3)80%, rgba(255,255,255, 0.95 ) 2% ), url('white-background.png');
+	display: flex;
+	align-items: flex-start;
+}
+
+
+.soluciones-industriales-banner{
+	background: linear-gradient( white 5%, rgba(255, 255, 255, 0.1) 60%), url('snow-crane.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 1600px;
+	color: black;
+	padding: 0px 30px;
+}
+
+.soluciones-industriales-list{
+	display: flex;
+	flex-wrap: wrap;
+}

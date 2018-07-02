@@ -6,11 +6,10 @@
     <title>Bgwsite</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= javascript_include_tag 'application' %>
-    <%= javascript_pack_tag 'application' %>
 
     
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Anton|Montserrat|Paytone+One" rel="stylesheet' %>
 
 
   </head>
@@ -18,5 +17,8 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
   </body>
 </html>

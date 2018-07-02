@@ -1,8 +1,41 @@
 .home-banner {
-  background-image: url('https://images.unsplash.com/photo-1530273973427-22351773250c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b4401619750134a727fca9403109d55b&auto=format&fit=crop&w=2550&q=80');
+  background-image: linear-gradient(  rgba(255, 255, 255, 0.8) 70%, white), url('construction-crane.jpg');
   background-size: cover;
-  height: 100vh;
-  color: #eee;
-  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 1100px;
+  color: black;
   padding-top: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-title{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+}
+
+.home-banner-background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.home-banner-btn{
+  border-radius: 25px;
+  background-color: #4fcc54;
+  color: white;
+  height: 36px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-btn:hover{
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
 }
