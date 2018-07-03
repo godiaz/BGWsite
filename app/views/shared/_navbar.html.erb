@@ -7,21 +7,26 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    <%= link_to "Inicio", root_path, class: "navbar-wagon-link" %>
+    <%= link_to "Conocenos", conocenos_path, class: "navbar-wagon-link" %>
+    <%= link_to "Productos", productos_path, class: "navbar-wagon-link" %>
+    <%= link_to "Servicios", servicios_path, class: "navbar-wagon-link" %>
+    <%= link_to "Contacto", contacto_path, class: "navbar-wagon-link" %>
 
     <!-- Profile picture with dropdown list -->
-    <div class="navbar-wagon-item">
+<!--     <div class="navbar-wagon-item">
       <div class="dropdown">
         <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Conocenos</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -29,9 +34,11 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Conocenos</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
       </ul>
     </div>
   </div>
