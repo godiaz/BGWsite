@@ -1,23 +1,23 @@
 	<div class="home-banner">
 		<div class="home-banner-background">	
-	  		<h1 class="banner-title">Distribuidora de Alambres</h1>
+	  		<h1 class="banner-title">Distribuidora de Alambres de la Costa</h1>
 	  		<p><%= link_to "Conocenos", conocenos_path, class: "home-banner-btn" %></p>
 		</div>
 
 		<div>
 			<div class="home-quienes-somos">
 				<p>Quienes Somos:</p>
-				<p>Hacemos parte de la red de empresas de Central de Hierros ltda., Centro Aceros del Caribe ltda., y Central de Servicios EU en Barranquilla.</p>
+				<p>Hacemos parte de la red de empresas de <%= link_to 'Central de Hierros ltda.', "www.centraldehierros.com" %>, <%= link_to 'Centro Aceros del Caribe ltda.', "www.centroacerosdelcaribe.com" %> y <%= link_to 'Central de Servicios EU.', "www.centraldeservicios.com.co" %> en Barranquilla. Haz click en <%= link_to 'Conocenos', conocenos_path %> y lee mas a cerca de nosotros.</p>
 			</div>
 
 			<div class="home-vendemos">
-			    <p>Vendemos:</p>
-			    <p>Vendemos cables de acero o sinteticos. Tenemos un portafolio con una amplia gama de productos para diferentes usos e industrias.</p>
+			    <p>Nuestros Aliados:</p>
+			    <p>Somos representantes exclusivos de Oliveira SA. que hace parte del grupo WireCo WorldGroup. Lider en produccion de cables de acero con mas de 120 años de experiencia. </p>
 			</div>
 
 			<div class="home-servicios">
-			    <p>Servicios:</p>
-			    <p>Contamos con servicio de corte, empaque y entrega. Nuestra flota de vehiculos internos y colaboradores en el area de logistica le garantiza que su producto llegue a tiempo y en optimo estado.</p>
+			    <p>Nuestro Equipo:</p>
+			    <p>Gracias a nuestros aliados, contamos con una personal capacitado y entrenado para proveer todo tipos de soluciones en cables de aceros y sinteticos. Ademas, nuestro equipo de ventas le garantiza un servicio puntual y eficaz.</p>
 			</div>
 		</div>	
 	</div>
@@ -35,7 +35,7 @@
 					</div>
 
 					<div class="home-products">
-						<%= image_tag ("dyneema-winch-rope.jpeg"), class: "home-product-image" %>
+						<%= image_tag ("synthetic-rope.jpeg"), class: "home-product-image" %>
 						<div class="home-product-overlay"> 
 							<div class="image-text"><%= link_to "CABOS SINTETICOS", productos_path %></div>
 							<p><%= link_to "Hechos en Portugal por la compañia Oliveira SA, contamos con una variedad de cabos sinteticos fabricados de diferentes materiales como Polyester, Nylon, Nylon de Polyamida y Polypropileno. Sus aplicaciones varian dependiendo de la industria.", productos_path, class: "image-text-two"%></p>
@@ -90,8 +90,14 @@
 						</div>
 					</div>
 
-				</div>
+			</div>
+			<div id="servicios">
+				<h2>Servicios:</h2>
+				<p>Contamos con flota logistica propia</p>
+				<p>Prestamos Servicios de Corte, Empaque y Envio</p>
+				<p>Prestamos Servicios de Asesoria</p>
 			</div>
 	</div>
-<div>
+
+
 

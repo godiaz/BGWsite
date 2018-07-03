@@ -1,0 +1,62 @@
+.productos-container{
+	height: 700px;
+	padding: 100px 20px;
+	background: linear-gradient( rgba(255,255,255, 0.6)80%, white),url('white-background.png');
+	background-position: center;
+}
+
+.productos-container h1{
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.productos-box{
+	font-size: 12px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 4px;
+	width: 60%;
+	padding: 20px;
+} 
+
+.productos-box p{
+	font-size: 12px;
+	color: white;
+	margin: 2px;
+}
+
+.products{
+	position: relative;
+}
+
+.productos:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+
+.productos:hover .product-overlay{
+	opacity: 1;
+}
+
+.product-overlay{
+	position: absolute;
+	top: 210px;
+	bottom: 0;
+	left: 400px;
+	right: 0px;
+	height: 30vh;
+	width: 30vh;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 125px 125px 125px 125px;
+}
+
+.productos-image{
+	position: relative;
+	border-radius: 50%;
+	height: 40vh;
+	width: 40vh;
+	background-size: fill;
+	display: block;
+}

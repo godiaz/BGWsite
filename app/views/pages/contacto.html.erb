@@ -1,8 +1,40 @@
-<div>
-	<h1>Contacto</h1>
-	<p>Dejanos un Mensaje:</p>
+<div class="contacto-container">
+	
 	<div>
-		<p>Contact Form</p>
+		<h1>Contacto</h1>
+		<div class="contact-inline">
+			<p>Escribenos:</p> 
+			<p>servicioalcliente@distribuidoradealambres.com</p>
+		</div>
+		<div class="contact-inline">
+			<p>Llamanos:</p>
+			<p>3401999</p>
+		</div>
+		<div class="contact-inline">
+			<p>Visitanos:</p>
+			<p>Calle 30 no. 28-103, Barranquilla, CO</p>
+		</div>	
+	</div>
+
+	<div class="contact-form">
+		<form class="go-bottom" action="https://formspree.io/gonzalodiaz000@gmail.com" method="post">
+		  <h2>DEJANOS UN MENSAJE</h2>
+		  <div>
+		    <input id="name" name="name" type="text" required>
+		    <label for="name">Ingresa tu Email</label>
+		  </div>
+		  <div>
+		    <input id="phone" name="phone" type="tel" required>
+		    <label for="phone">Numero de Telefono</label>
+		  </div>
+		  <div>
+		    <textarea id="message" name="phone" required></textarea>
+		    <label for="message">Contenido</label>
+		  </div>
+		  <div>
+		  	<input class="contacto-btn" type="submit" value="Enviar Mensaje">
+		  </div>
+		</form>
 	</div>
 </div>
 
