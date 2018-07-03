@@ -1,5 +1,5 @@
 .footer {
-  box-shadow: 5px 1px 1px 0 rgba(0,0,0,0.03),0 1px 0 0 rgba(0,0,0,0.03);
+  box-shadow: 5px 1px 1px 3px rgba(0,0,0,0.03),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   display: flex;
   align-items: center;
@@ -57,5 +57,13 @@
   font-size: 12px;
 }
 
+
+.footer-email-link a{
+  color:#4fcc54;
+}
+
+.footer-email-link:hover{
+  color: #4fcc54;;
+}
 
 

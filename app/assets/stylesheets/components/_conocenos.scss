@@ -1,0 +1,57 @@
+.conocenos-container{
+	padding: 100px 20px;
+	background-image: linear-gradient( rgba(255, 255, 255, 0.9) 70%, white), url('conocenos-background.jpg');
+	background-size: 1800px 1400px;
+	background-repeat: no-repeat;
+}
+
+.conocenos-pertenecemos{
+	background: rgba(0,0,0,0.6);
+	font-size: 12px;
+	font-weight: lighter;
+	color: white;
+	border-radius: 4px;
+	padding: 10px 20px;
+	width: 30%;
+	margin-bottom: 10px;
+} a{
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+} a:hover{
+	color: white;
+}
+
+.conocenos-somos{
+	background: rgba(0,0,0,0.6);
+	font-size: 12px;
+	font-weight: lighter;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 8px;
+	width: 30%;
+	margin-bottom: 10px;
+	height: 35px;
+} 
+
+.conocenos-bio{
+	background: rgba(0,0,0,0.6);
+	font-size: 11px;
+	font-weight: lighter;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 8px 12px;
+	width: 60%;
+	margin-bottom: 10px;
+} 
+
+.conocenos-bio a {
+	color: #4fcc54;
+	font-size: 14px;
+	font-weight: lighter;
+} 
+.conocenos-bio a:hover{
+	color: #4fcc54;
+}

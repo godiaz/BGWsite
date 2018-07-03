@@ -1,18 +1,30 @@
+
 .home-quienes-somos p:last-child{
+  	font-size: 12px;
+  	font-weight: lighter;
 	padding: 20px;
 	border-radius: 25px;
 	background-color: rgba(0,0,0, 0.6);
 	width: 500px;
 	height: 100px;
 	margin-left: 200px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: lighter;
   	color: white;
-  	font-size: 14px;
+
 }
 
 .home-quienes-somos p:first-child{
  	margin-left: 200px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
+}
+
+.home-quienes-somos a{
+	color: #4fcc54;
+}
+
+.home-quienes-somos a:hover{
+	color: #4fcc54;
 }
 
 .home-servicios p:last-child{
@@ -22,14 +34,16 @@
 	width: 500px;
 	height: 100px;
 	margin-left: 600px;
-	font-family: 'Montserrat', sans-serif;
+  	font-size: 12px;
 	font-weight: lighter;
   	color: white;
-  	font-size: 14px;
 }
 
 .home-servicios p:first-child{
  	margin-left: 600px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
 }
 
 .home-vendemos p:last-child{
@@ -39,14 +53,16 @@
 	width: 500px;
 	height: 100px;
 	margin-left: 400px;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
   	color: white;
-  	font-size: 14px;
+  	font-size: 12px;
 }
 
 .home-vendemos p:first-child{
  	margin-left: 400px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
 }
 
 
@@ -133,7 +149,8 @@
 
 .image-industry-text {
   color: white;
-  font-size: 15px;
+  font-size: 20px !important;
+  letter-spacing: 1px;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -142,6 +159,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 .image-industry-text:hover{
@@ -193,7 +211,7 @@
   height: 30vh;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .5s linear;
   background-color: rgba(0,0,0,0.7);
   border-radius: 125px 125px 125px 125px;
 }
@@ -210,7 +228,7 @@
   transition: .5s ease;
   background-color: rgba(0,0,0,0.7);
   border-radius: 125px 125px 125px 125px;
-}
+} 
 
 .home-products-box{
 	display: flex;
@@ -231,7 +249,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	height: 1600px;
+	height: 1200px;
 	color: black;
 	padding: 0px 30px;
 }
@@ -240,3 +258,54 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+#servicios{
+	padding: 80px 30px;
+}
+
+#servicios h2{
+	font-size: 28px;
+	padding-left: 600px;
+}
+
+#servicios p:nth-child(2){
+	padding: 40px 0px 0px 0px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.7);
+	width: 500px;
+	height: 100px;
+	margin-left: 400px;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+  	text-align: center;
+}
+
+#servicios p:nth-child(3){
+	padding: 40px 0px 0px 0px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.7);
+	width: 500px;
+	height: 100px;
+	margin-left: 300px;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+  	text-align: center;
+}
+
+#servicios p:nth-child(4){
+	padding: 40px 0px 0px 0px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.7);
+	width: 500px;
+	height: 100px;
+	margin-left: 200px;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 14px;
+  	text-align: center;
+}
+
+
+
