@@ -11,6 +11,5 @@ function initUpdateNavbarOnScroll() {
   }
 }
 
-console.log("hello");
 
 export { initUpdateNavbarOnScroll };
