@@ -1,5 +1,5 @@
 <div class="productos-container">
-	<h1>Productos</h1>
+		<h1>Productos</h1>
 	<div class="productos-box">
 		<h2>Cables por Aplicacion:</h2>
 			<div class="productos">
@@ -80,6 +80,12 @@
 					<%= image_tag ("productos-13.png"), class: "productos-image" %>
 				</div>
 			</div>
-
 	</div>
+
+	<a href="../../assets/catalog.pdf" download="catalog">
+	    <button type="button" class="download-btn">Descargar Catalogo</button>
+	</a>
+		<%#= link_to 'catalog.pdf', download: 'catalog.pdf', class: "download-btn" do %>
+		<!-- <i class="fas fa-angle-down"></i> Descargar Catalogo -->
+		<%# end %>
 </div>

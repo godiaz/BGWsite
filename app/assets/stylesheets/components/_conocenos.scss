@@ -1,12 +1,24 @@
+.logo-conocenos{
+	opacity: 0.4;
+	z-index: -1;
+	width: 40%;
+	position: absolute;
+	right: 80px;
+	top: 120px;
+}
+
+
 .conocenos-container{
 	padding: 100px 20px;
 	background-image: linear-gradient( rgba(255, 255, 255, 0.9) 70%, white), url('conocenos-background.jpg');
 	background-size: 1800px 1400px;
 	background-repeat: no-repeat;
+	z-index: 0;
+	position: relative;
 }
 
 .conocenos-pertenecemos{
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	font-size: 12px;
 	font-weight: lighter;
 	color: white;
@@ -14,6 +26,7 @@
 	padding: 10px 20px;
 	width: 30%;
 	margin-bottom: 10px;
+	z-index: 2;
 } a{
 	color: white;
 	font-size: 12px;
@@ -23,7 +36,7 @@
 }
 
 .conocenos-somos{
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	font-size: 12px;
 	font-weight: lighter;
 	color: white;
@@ -33,10 +46,11 @@
 	width: 30%;
 	margin-bottom: 10px;
 	height: 35px;
+	z-index: 2;
 } 
 
 .conocenos-bio{
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	font-size: 11px;
 	font-weight: lighter;
 	color: white;
@@ -45,6 +59,8 @@
 	padding: 8px 12px;
 	width: 60%;
 	margin-bottom: 10px;
+	z-index: 2;
+	text-align: justify;
 } 
 
 .conocenos-bio a {
