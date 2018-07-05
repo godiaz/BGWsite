@@ -1,5 +1,8 @@
 Rails.application.configure do
 
+  config.serve_static_assets = true
+  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+  config.assets.compile = true
   # config.assets.css_compressor = :yui
   config.assets.js_compressor = :uglifier
   # Verifies that versions and hashed value of the package contents in the project's package.json
