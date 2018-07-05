@@ -1,3 +1,7 @@
+<% if mobile? %>
+<%= render 'mobile-home' %>
+<% else %>
+
 	<div class="home-banner">
 		<div class="home-banner-background">	
 	  		<h1 class="banner-title">Distribuidora de Alambres de la Costa</h1>
@@ -99,5 +103,5 @@
 			</div>
 	</div>
 
-
+<% end %>
 

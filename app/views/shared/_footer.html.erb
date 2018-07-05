@@ -1,3 +1,7 @@
+<% if mobile? %>
+<%= render 'mobile-footer' %>
+<% else %>
+
 <div class="footer">
   <div class="footer-links">
     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -21,3 +25,4 @@
     </ul>
   </div>
 </div>
+<% end %>
