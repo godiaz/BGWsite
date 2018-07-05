@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "Distribuidora de Alambres"
+meta_title: "Distribuidora de Alambres"
+meta_description: "Vendemos cables de acero y sinteticos. Representamos al grupo comercial WireCo World Group"
+meta_image: "LogoDAC.png"                       # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
