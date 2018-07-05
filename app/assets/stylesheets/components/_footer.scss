@@ -1,40 +1,53 @@
 // MOBILE ################################
 
+.mobile-footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0px 5px;
+}
+
 .mobile-footer-dac p {
-  font-size: 9px;
+  font-size: 7px;
   display: flex;
   margin-bottom: 3px;
 }
 
 .mobile-footer-dac a{
   color: #4fcc54;
-  font-size: 10px;
+  font-size: 8px;
   margin-left: 6px;
 }
 
 .mobile-footer {
-  box-shadow: 5px 1px 1px 3px rgba(0,0,0,0.03),0 1px 0 0 rgba(0,0,0,0.03);
+  box-shadow: 1px rgba(0,0,0,0.03),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
-  width: 615px;
-  padding: 0px 20px;
+  height: 100px;
+  width: 417px;
+  padding: 0px 10px;
   color: rgba(0,0,0,0.3);
 }
 
-.footer-dac-two{
-  font-size: 9px;
+.mobile-productos-title{
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.mobile-footer-dac-two{
+  font-size: 7px;
 }
 
 .mobile-footer-dac-two a{
-  font-size: 9px;
+  font-size: 6px;
   color: #4fcc54;
 }
 
 .mobile-footer-dac-two {
-  font-size: 8px;
+  font-size: 7px;
 }
 
 .mobile-footer-column{
@@ -43,7 +56,7 @@
 }
 
 .mobile-footer-copyright p{
-  font-size: 9px;
+  font-size: 7px;
 }
 
  // ################################

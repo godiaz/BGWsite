@@ -5,17 +5,28 @@
 }
 
 .mobile-home-banner {
-  background-image: linear-gradient(  rgba(255, 255, 255, 0.8) 70%, white), url('construction-crane.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 40%px;
-  width: 615px;
-  color: black;
-  padding-top: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	background-image: linear-gradient(  rgba(255, 255, 255, 0.8) 70%, white), url('construction-crane.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	color: black;
+	padding-top: 40vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+
+.mobile-home-banner-btn{
+  border-radius: 25px;
+  background-color: #4fcc54;
+  color: white;
+  height: 36px;
+  width: 200px;
+  padding: 10px 50px;
+
 }
 
 .mobile-banner-title{
@@ -25,29 +36,27 @@
 }
 
 .mobile-home-banner-background{
-  display: flex;
-  width: 600px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 10px;
 }
 
 .mobile-home-quienes-somos p:last-child{
-  	font-size: 10px;
+  	font-size: 11px;
   	font-weight: lighter;
 	padding: 20px;
 	border-radius: 25px;
 	background-color: rgba(0,0,0, 0.6);
-	width: 500px;
+	width: 350px;
 	height: 100px;
-	margin-left: 40px;
+	margin-left: 20px;
   	color: white;
+}
+
+.mobile-contactanos{
+	padding-top: 30vh;
 }
 
 .mobile-home-quienes-somos p:first-child{
 	padding-top: 60vh;
- 	margin-left: 40px;
+ 	margin-left: 20px;
  	font-size: 16px;
  	font-family: 'Anton', sans-serif;
  	letter-spacing: 3px;
@@ -66,9 +75,9 @@
 	padding: 20px;
 	border-radius: 25px;
 	background-color: rgba(0,0,0, 0.6);
-	width: 500px;
+	width: 350px;
 	height: 100px;
-	margin-left: 40px;
+	margin-left: 20px;
   	font-size: 10px;
 	font-weight: lighter;
   	color: white;
@@ -85,9 +94,9 @@
 	padding: 20px;
 	border-radius: 25px;
 	background-color: rgba(0,0,0, 0.6);
-	width: 500px;
+	width: 350px;
 	height: 100px;
-	margin-left: 40px;
+	margin-left: 20px;
 	font-weight: lighter;
   	color: white;
   	font-size: 10px;
@@ -100,8 +109,27 @@
  	letter-spacing: 3px;
 }
 
+.mobile-download-btn{
+	border-radius: 25px;
+	background-color: #F45A5A;
+	color: white;
+	letter-spacing: 1px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
 
+.angle-icon{
+	margin-right: 5px;
+	font-size: 13px;
+}
 
+.mobile-products{
+	padding-top: 20vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 // ####################
 
