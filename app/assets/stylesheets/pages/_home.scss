@@ -1,3 +1,110 @@
+// MOBILE ##################
+
+.home-mobile-container{
+	width: 100%;
+}
+
+.mobile-home-banner {
+  background-image: linear-gradient(  rgba(255, 255, 255, 0.8) 70%, white), url('construction-crane.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 40%px;
+  width: 615px;
+  color: black;
+  padding-top: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile-banner-title{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+  align-text: center;
+}
+
+.mobile-home-banner-background{
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.mobile-home-quienes-somos p:last-child{
+  	font-size: 10px;
+  	font-weight: lighter;
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 40px;
+  	color: white;
+}
+
+.mobile-home-quienes-somos p:first-child{
+	padding-top: 60vh;
+ 	margin-left: 40px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
+ 	align-text: justify;
+}
+
+.mobile-home-quienes-somos a{
+	color: #4fcc54;
+}
+
+.mobile-home-quienes-somos a:hover{
+	color: #4fcc54;
+}
+
+.mobile-home-servicios p:last-child{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 40px;
+  	font-size: 10px;
+	font-weight: lighter;
+  	color: white;
+}
+
+.mobile-home-servicios p:first-child{
+ 	margin-left: 40px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
+}
+
+.mobile-home-vendemos p:last-child{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0, 0.6);
+	width: 500px;
+	height: 100px;
+	margin-left: 40px;
+	font-weight: lighter;
+  	color: white;
+  	font-size: 10px;
+}
+
+.mobile-home-vendemos p:first-child{
+ 	margin-left: 40px;
+ 	font-size: 16px;
+ 	font-family: 'Anton', sans-serif;
+ 	letter-spacing: 3px;
+}
+
+
+
+
+// ####################
+
 .home-bottom-icon{
 	font-size: 16px;
 	margin-right: 15px;
