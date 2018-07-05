@@ -1,0 +1,39 @@
+.servicios-container{
+	height: 600px;
+	background: linear-gradient( rgba(255,255,255,0.8)90%, white 10%),url('servicios-bck.jpeg');
+	background-size: 1800px 1400px;
+	background-position: center;
+	background-repeat: repeat;
+	padding: 160px 30px 0px 30px;
+}
+
+.servicios-bubble{
+	background: rgba(0,0,0, 0.8);
+	border-radius: 8px;
+	padding: 20px 50px;
+	color: white;
+	width: 60%;
+	margin-left: 10px;
+}
+
+.servicios-bubble-icon{
+	background: rgba(0,0,0, 0.8);
+	border-radius: 8px;
+	padding: 20px 50px;
+	margin-bottom: 10px;
+	transition: .3s;
+}
+
+.servicios-bubble-icon:hover{
+  transform: scale(1.03);
+  padding: 19px 50px;
+}
+
+.servicios-bottom-icon{
+	font-size: 22px;
+	color: white;
+}
+
+.servicios-block{
+	display: flex;
+}
