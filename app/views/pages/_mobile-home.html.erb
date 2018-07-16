@@ -29,9 +29,10 @@
 			<h2>Cabos Sinteticos</h2>
 			<%= image_tag ("synthetic-rope.jpg"), class: "home-product-image" %>
 
-			<a href="../assets/catalog.pdf" download="catalog">
+			<%= link_to "Descargar Catalogo", download_pdf_path, class: "download-btn" %>
+<!-- 			<a href="../assets/catalog.pdf" download="catalog">
 			    <button type="button" class="mobile-download-btn"><i class="fas fa-angle-down angle-icon"></i>Descarga Nuestro Catalogo</button>
-			</a>
+			</a> -->
 		</div>
 
 		<div class="mobile-contactanos" id="mobile-contactanos">
